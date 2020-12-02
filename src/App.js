@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/cv'>
             <React.Suspense fallback={<div>{'loading'}</div>}>
               <BackgroundContext.Provider value={{ theme, updateThemeLight, updateThemeDark }}>
                 <Switch>
