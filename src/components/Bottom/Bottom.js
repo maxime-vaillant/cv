@@ -10,8 +10,10 @@ const Bottom = () => {
   return(
     <div className='subContainerBottom'>
       <hr style={{ background: theme.foreground }}/>
-      <p>Web App Made In React</p>
-      <img/>
+      <div>
+        <p>Web App Made In React</p>
+        <img/>
+      </div>
     </div>
   )
 }
