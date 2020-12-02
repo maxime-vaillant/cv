@@ -1,0 +1,44 @@
+.subContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.textContainer{
+  padding-top: 1vh;
+  padding-left: 3vh;
+  flex: 1;
+}
+
+.imageContainerCompet{
+  margin-left: 5%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pourcent{
+  margin-top: 3vh;
+  margin-right: 5vw;
+}
+
+hr{
+  width: 40%;
+  margin-left: 5%;
+  height: 1px;
+  border: 0;
+}
+
+.textContainer h1{
+  margin-bottom: 0;
+  font-size: 2.5vh;
+}
+
+.imageCompet{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}

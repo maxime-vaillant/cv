@@ -1,0 +1,97 @@
+{
+  "Associations": [
+    {
+      "id" : 1,
+      "name" : "Intégration",
+      "periode" : "P20 - A20",
+      "poste" : "Responsable Informatique",
+      "details" : "Mise en place d’un site, d’une application mobile et d’un système d’inscription aux activités au vu de la Covid19.",
+      "idPhoto" : 1
+    },
+    {
+      "id" : 2,
+      "name" : "Ski'UTC",
+      "periode" : "A20",
+      "poste" : "Team Informatique",
+      "details" : "Participation à la mise en place d'un site web, et à la maintenance d'une application mobile.",
+      "idPhoto" : 2
+    },
+    {
+      "id" : 3,
+      "name" : "Comet",
+      "periode" : "A20",
+      "poste" : "Team Informatique",
+      "details" : "Mise en place d'un projet de Click and Collect pour les associations.",
+      "idPhoto" : 3
+    },
+    {
+      "id" : 4,
+      "name" : "Etusexy",
+      "periode" : "A20",
+      "poste" : "Responsable Informatique",
+      "details" : "Maintenance du site déjà existant.",
+      "idPhoto" : 4
+    },
+    {
+      "id" : 5,
+      "name" : "SiMDE",
+      "periode" : "A20",
+      "poste" : "Membre",
+      "details" : "Participation à la team Pay'UTC",
+      "idPhoto" : 5
+    }
+
+  ],
+  "Competences": [
+    {
+      "id" : 6,
+      "name" : "Python",
+      "pourcentage" : 80,
+      "idPhoto" : 6
+    },
+    {
+      "id" : 7,
+      "name" : "Javascript",
+      "pourcentage" : 75,
+      "idPhoto" : 7
+    },
+    {
+      "id" : 8,
+      "name" : "PHP",
+      "pourcentage" : 50,
+      "idPhoto" : 8
+    },
+    {
+      "id" : 9,
+      "name" : "SQL",
+      "pourcentage" : 70,
+      "idPhoto" : 9
+    },
+    {
+      "id" : 10,
+      "name" : "C/C++",
+      "pourcentage" : 35,
+      "idPhoto" : 10
+    },
+    {
+      "id": 11,
+          "name" : "Russe",
+          "pourcentage" : 0,
+          "idPhoto" : 11
+        }
+  ],
+  "Outils": [
+    {
+      "id" : 12,
+      "name" : "Git",
+      "pourcentage" : 70,
+      "idPhoto" : 12
+    },
+    {
+      "id" : 13,
+      "name" : "React",
+      "pourcentage" : 75,
+      "idPhoto" : 13
+    }
+  ]
+}

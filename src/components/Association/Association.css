@@ -1,0 +1,59 @@
+.subContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.textContainer{
+  padding-top: 1vh;
+  padding-left: 3vh;
+  flex: 1;
+}
+
+.imageContainer{
+  margin-left: 5%;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+  width: 40%;
+  margin-left: 5%;
+  height: 1px;
+  border: 0;
+}
+
+.textContainer h1{
+  margin-bottom: 0;
+  font-size: 2.5vh;
+}
+
+.textContainer h2{
+  margin-bottom: 1vh;
+  text-decoration: underline;
+  font-size: 2vh;
+}
+
+.textContainer h3{
+  margin-top: 1vh;
+  position: absolute;
+  font-size: 1.5vh;
+  font-style: italic;
+  right: 5vw;
+}
+
+.textContainer p{
+  text-align: justify;
+  font-size: 1.75vh;
+  line-height: 2vh;
+  padding-right: 5vw;
+}
+
+.image{
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+}

@@ -1,0 +1,46 @@
+.mainContainer{
+  min-height: 100vh;
+}
+
+.subContainerName{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.textContainerName{
+  padding-top: 2vh;
+  padding-left: 3vh;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainerName h1{
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.First{
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.Last{
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.image{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  left: 5%;
+  top: 2vh;
+  margin-bottom: 2vh;
+}

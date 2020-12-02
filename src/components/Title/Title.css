@@ -1,0 +1,15 @@
+.title{
+  margin-top: 3vh;
+}
+
+.title h2{
+  margin-left: 10%;
+  margin-bottom: 1vh;
+}
+
+.title hr{
+  width: 80%;
+  margin-left: 5%;
+  height: 1px;
+  border: 0;
+}
