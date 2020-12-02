@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.d9e367ea.chunk.css",
+    "main.js": "/cv/static/js/main.b661d420.chunk.js",
+    "main.js.map": "/cv/static/js/main.b661d420.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.89412bb4.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.89412bb4.js.map",
+    "static/css/2.1f692da1.chunk.css": "/cv/static/css/2.1f692da1.chunk.css",
+    "static/js/2.c727d5c0.chunk.js": "/cv/static/js/2.c727d5c0.chunk.js",
+    "static/js/2.c727d5c0.chunk.js.map": "/cv/static/js/2.c727d5c0.chunk.js.map",
+    "static/js/3.755116d8.chunk.js": "/cv/static/js/3.755116d8.chunk.js",
+    "static/js/3.755116d8.chunk.js.map": "/cv/static/js/3.755116d8.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "static/css/2.1f692da1.chunk.css.map": "/cv/static/css/2.1f692da1.chunk.css.map",
+    "static/css/main.d9e367ea.chunk.css.map": "/cv/static/css/main.d9e367ea.chunk.css.map",
+    "static/js/2.c727d5c0.chunk.js.LICENSE.txt": "/cv/static/js/2.c727d5c0.chunk.js.LICENSE.txt",
+    "static/media/BDI.079313d0.jpg": "/cv/static/media/BDI.079313d0.jpg",
+    "static/media/Comet.1ed68054.jpg": "/cv/static/media/Comet.1ed68054.jpg",
+    "static/media/Cpp.0a81196c.png": "/cv/static/media/Cpp.0a81196c.png",
+    "static/media/Etusexy.75930e91.png": "/cv/static/media/Etusexy.75930e91.png",
+    "static/media/Git.51d13826.png": "/cv/static/media/Git.51d13826.png",
+    "static/media/JavaScript.75220e22.png": "/cv/static/media/JavaScript.75220e22.png",
+    "static/media/PHP.a5836a77.png": "/cv/static/media/PHP.a5836a77.png",
+    "static/media/PhotoCV.33235a4d.jpg": "/cv/static/media/PhotoCV.33235a4d.jpg",
+    "static/media/Python.f22d1fce.png": "/cv/static/media/Python.f22d1fce.png",
+    "static/media/React.b46cc3c0.png": "/cv/static/media/React.b46cc3c0.png",
+    "static/media/Russia.b4132869.svg": "/cv/static/media/Russia.b4132869.svg",
+    "static/media/SKIUTC.a9bcb6bc.jpg": "/cv/static/media/SKIUTC.a9bcb6bc.jpg",
+    "static/media/SQL.38e9a185.png": "/cv/static/media/SQL.38e9a185.png",
+    "static/media/SiMDE.db6cd86c.png": "/cv/static/media/SiMDE.db6cd86c.png",
+    "static/media/semantic.min.css": "/cv/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89412bb4.js",
+    "static/css/2.1f692da1.chunk.css",
+    "static/js/2.c727d5c0.chunk.js",
+    "static/css/main.d9e367ea.chunk.css",
+    "static/js/main.b661d420.chunk.js"
+  ]
+}
