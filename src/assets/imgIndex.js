@@ -12,6 +12,10 @@ import Cpp from './img/Cpp.png';
 import Russia from './img/Russia.svg';
 import Git from './img/Git.png';
 import ReactTool from './img/React.png';
+import Facebook from './img/Facebook.png';
+import Instagram from './img/Instagram.png';
+import Linkedin from './img/Linkedin.png';
+import Github from './img/Github.png';
 
 const imgIndex = [
   Maxou,
@@ -27,7 +31,11 @@ const imgIndex = [
   Cpp,
   Russia,
   Git,
-  ReactTool
+  ReactTool,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Github
 ]
 
 export default imgIndex;

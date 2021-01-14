@@ -5,17 +5,14 @@
 .subContainerName{
   display: flex;
   flex-direction: row;
-  padding-top: 1vh;
+  padding-top: 3vh;
   padding-bottom: 1vh;
 }
 
 .textContainerName{
-  padding-top: 2vh;
-  padding-left: 3vh;
+  padding-top: 3vh;
+  padding-left: 4vh;
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .textContainerName h1{

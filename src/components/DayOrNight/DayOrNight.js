@@ -10,10 +10,10 @@ const DayOrNight = () => {
 
   return(
     <Button.Group className='buttonContainer'>
-      <Button icon positive={theme == Themes.light} onClick={updateThemeLight}>
+      <Button icon positive={theme === Themes.light} onClick={updateThemeLight}>
         <Icon name='sun' />
       </Button>
-      <Button icon positive={theme == Themes.dark} onClick={updateThemeDark}>
+      <Button icon positive={theme === Themes.dark} onClick={updateThemeDark}>
         <Icon name='moon'/>
       </Button>
     </Button.Group>

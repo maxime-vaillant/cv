@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import './Home.css';
 import Title from '../Title/Title.js';
 import DayOrNight from '../DayOrNight/DayOrNight.js';
@@ -18,34 +18,41 @@ const outils_data = data.Outils;
 
 function Home() {
   const {theme} = useContext(BackgroundContext);
+  const [color, setColor] = useState(-1);
+
+  const colorName = ['pink', 'yellow', 'brown', 'green'];
+
+  function handleClick(){
+    if (color >= 4) {
+      setColor(0)
+    } else {
+      setColor(color + 1)
+    }
+  }
 
   return (
     <div className='mainContainer' style={{ background: theme.background, color: theme.foreground }}>
       <DayOrNight/>
       <div className='subContainerName'>
         <div className='imageContainer'>
-          <img className='image' src={imgIndex[0]}/>
+          <img className='image' src={imgIndex[0]} alt='Me' onClick={() => handleClick()}/>
         </div>
-        <div className='textContainerName'>
-          <div className='First'>
+        <div className='textContainerName' style={{ color: colorName[color] }}>
             <h1>Maxime</h1>
-          </div>
-          <div className='Last'>
             <h1>Vaillant</h1>
-          </div>
         </div>
       </div>
       <Title title='Associations'/>
       {assos_data.map(item =>
-        <Association name={item.name} periode={item.periode} poste={item.poste} details={item.details} photo={imgIndex[item.idPhoto]}/>
+        <Association key={item.id} name={item.name} periode={item.periode} poste={item.poste} details={item.details} photo={imgIndex[item.idPhoto]}/>
       )}
-      <Title title='Languages'/>
+      <Title title='Langages'/>
       {compet_data.map(item =>
-        <Competence name={item.name} pourcentage={item.pourcentage} photo={imgIndex[item.idPhoto]}/>
+        <Competence key={item.id} name={item.name} pourcentage={item.pourcentage} photo={imgIndex[item.idPhoto]}/>
       )}
       <Title title='Outils'/>
       {outils_data.map(item =>
-        <Competence name={item.name} pourcentage={item.pourcentage} photo={imgIndex[item.idPhoto]}/>
+        <Competence key={item.id} name={item.name} pourcentage={item.pourcentage} photo={imgIndex[item.idPhoto]}/>
       )}
       <Bottom/>
     </div>

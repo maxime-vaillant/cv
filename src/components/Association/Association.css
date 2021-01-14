@@ -42,14 +42,14 @@ hr{
   position: absolute;
   font-size: 1.5vh;
   font-style: italic;
-  right: 5vw;
+  right: 6vw;
 }
 
 .textContainer p{
   text-align: justify;
   font-size: 1.75vh;
   line-height: 2vh;
-  padding-right: 5vw;
+  padding-right: 6vw;
 }
 
 .image{

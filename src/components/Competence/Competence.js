@@ -2,8 +2,6 @@ import React, { useContext } from 'react';
 import './Competence.css';
 import { Progress } from 'semantic-ui-react'
 import BackgroundContext from '../../context/background-context';
-import Themes from '../../context/Themes.js';
-
 
 const Association = ({ name, pourcentage, photo }) => {
   const {theme} = useContext(BackgroundContext);
@@ -11,7 +9,7 @@ const Association = ({ name, pourcentage, photo }) => {
   return(
     <div className='subContainer'>
       <div className='imageContainerCompet'>
-        <img className='imageCompet' src={photo}/>
+        <img className='imageCompet' src={photo} alt=''/>
       </div>
       <div className='textContainer'>
         <h1>{name}</h1>

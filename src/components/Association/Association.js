@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
 import './Association.css';
 import BackgroundContext from '../../context/background-context';
-import Themes from '../../context/Themes.js';
-
 
 const Association = ({ name, periode, poste, details, photo }) => {
   const {theme} = useContext(BackgroundContext);
@@ -10,7 +8,7 @@ const Association = ({ name, periode, poste, details, photo }) => {
   return(
     <div className='subContainer'>
       <div className='imageContainer'>
-        <img className='image' src={photo}/>
+        <img className='image' src={photo} alt=''/>
       </div>
       <div className='textContainer'>
         <h1>{name}</h1>

@@ -4,3 +4,22 @@
   height: 1px;
   border: 0;
 }
+
+.subContainerBottom p{
+  padding-left: 2vh;
+}
+
+.socialN{
+  height: 30px;
+  border-radius: 5px;
+}
+
+.bottomContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
