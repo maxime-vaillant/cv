@@ -1,13 +1,27 @@
 import React, { useContext } from 'react';
 import './Settings.css';
 import { Icon, Form, Button } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import Title from '../Title/Title.js';
 import DayOrNight from '../DayOrNight/DayOrNight.js';
 import BackgroundContext from '../../context/background-context';
 
 function Settings() {
   const {theme, updateName, resetName} = useContext(BackgroundContext);
+
+  const history = useHistory();
+
+  const routeReset = () =>{
+    let path = '/';
+    resetName()
+    history.push(path);
+  }
+
+  const routeUpdate = () =>{
+    let path = '/';
+    updateName()
+    history.push(path);
+  }
 
   return (
     <div className='mainContainerSettings' style={{ background: theme.background, color: theme.foreground }}>
@@ -26,8 +40,8 @@ function Settings() {
               <h5>Nom</h5>
               <input placeholder='Nom'/>
             </Form.Field>
-            <Button type='submit' onClick={() => updateName()}>Envoyer</Button>
-            <Button type='reset' onClick={() => resetName()}>Reset</Button>
+            <Button type='submit' onClick={routeUpdate}>Envoyer</Button>
+            <Button type='reset' onClick={routeReset}>Reset</Button>
           </Form>
         </div>
       </div>
