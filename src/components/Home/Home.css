@@ -2,6 +2,16 @@
   min-height: 100vh;
 }
 
+.toSettings{
+  position: absolute;
+  right: 1vh;
+  top: 1vh;
+}
+
+.toSettings a{
+  color: inherit;
+}
+
 .subContainerName{
   display: flex;
   flex-direction: row;

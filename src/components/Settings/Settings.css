@@ -2,9 +2,35 @@
   min-height: 100vh;
 }
 
+.toHome{
+  position: absolute;
+  left: 1vh;
+  top: 1vh;
+}
+
+.toHome a{
+  color: inherit;
+}
+
 .subContainerSettings{
   display: flex;
   flex-direction: column;
   padding-top: 3vh;
   padding-bottom: 1vh;
+  text-align: justify;
+}
+
+.subContainerSettings h1{
+  padding-left: 4vh;
+  padding-right: 4vh;
+  font-size: 1rem;
+}
+
+.settingsForm{
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+
+.settingsForm label{
+  color: inherit;
 }

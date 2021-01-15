@@ -1,5 +1,7 @@
 import React, { useState, useContext } from 'react';
 import './Home.css';
+import { Icon } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import Title from '../Title/Title.js';
 import DayOrNight from '../DayOrNight/DayOrNight.js';
 import Association from '../Association/Association.js';
@@ -18,7 +20,7 @@ const outils_data = data.Outils;
 
 
 function Home() {
-  const {theme} = useContext(BackgroundContext);
+  const {theme, prenom, nom} = useContext(BackgroundContext);
   const [color, setColor] = useState(-1);
 
   const colorName = ['pink', 'yellow', 'brown', 'green'];
@@ -33,14 +35,18 @@ function Home() {
 
   return (
     <div className='mainContainerHome' style={{ background: theme.background, color: theme.foreground }}>
-      <DayOrNight/>
+      <div className='toSettings'>
+        <Link to='/settings'>
+          <Icon name='setting' size='big'/>
+        </Link>
+      </div>
       <div className='subContainerName'>
         <div className='imageContainer'>
           <img className='image' src={imgIndex[0]} alt='Me' onClick={() => handleClick()}/>
         </div>
         <div className='textContainerName' style={{ color: colorName[color] }}>
-            <h1>Maxime</h1>
-            <h1>Vaillant</h1>
+            <h1>{prenom}</h1>
+            <h1>{nom}</h1>
         </div>
       </div>
       <Title title='Associations'/>
