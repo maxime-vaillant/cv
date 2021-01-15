@@ -1,0 +1,10 @@
+.subContainerLettre{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  padding-bottom: 3vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-top: 1vh;
+  text-align: justify;
+}

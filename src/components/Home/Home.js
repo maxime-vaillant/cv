@@ -4,6 +4,7 @@ import Title from '../Title/Title.js';
 import DayOrNight from '../DayOrNight/DayOrNight.js';
 import Association from '../Association/Association.js';
 import Competence from '../Competence/Competence.js';
+import Lettre from '../Lettre/Lettre.js';
 import Bottom from '../Bottom/Bottom.js';
 import BackgroundContext from '../../context/background-context';
 import data from '../../assets/data.json';
@@ -31,7 +32,7 @@ function Home() {
   }
 
   return (
-    <div className='mainContainer' style={{ background: theme.background, color: theme.foreground }}>
+    <div className='mainContainerHome' style={{ background: theme.background, color: theme.foreground }}>
       <DayOrNight/>
       <div className='subContainerName'>
         <div className='imageContainer'>
@@ -54,6 +55,8 @@ function Home() {
       {outils_data.map(item =>
         <Competence key={item.id} name={item.name} pourcentage={item.pourcentage} photo={imgIndex[item.idPhoto]}/>
       )}
+      <Title title='Lettre de Motivation'/>
+      <Lettre/>
       <Bottom/>
     </div>
   );

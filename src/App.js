@@ -4,6 +4,7 @@ import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 import Home from './components/Home/Home.js';
 import NotFound from './components/NotFound/NotFound.js';
+import Settings from './components/Settings/Settings.js';
 import BackgroundContext from './context/background-context.js';
 import Themes from './context/Themes.js';
 
@@ -23,6 +24,7 @@ function App() {
               <BackgroundContext.Provider value={{ theme, updateThemeLight, updateThemeDark }}>
                 <Switch>
                     <Route path="/" exact component={Home} />
+                    <Route path="/settings" exact component={Settings} />
                     <Route component={NotFound} />
                 </Switch>
               </BackgroundContext.Provider>

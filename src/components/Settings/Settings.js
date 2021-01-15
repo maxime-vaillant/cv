@@ -1,21 +1,20 @@
 import React, { useContext } from 'react';
-import './NotFound.css';
+import './Settings.css';
 import Title from '../Title/Title.js';
 import DayOrNight from '../DayOrNight/DayOrNight.js';
 import BackgroundContext from '../../context/background-context';
 
-
-function NotFound() {
+function Settings() {
   const {theme} = useContext(BackgroundContext);
 
   return (
-    <div className='mainContainer404' style={{ background: theme.background, color: theme.foreground }}>
+    <div className='mainContainerSettings' style={{ background: theme.background, color: theme.foreground }}>
       <DayOrNight/>
-      <div className='subContainer404'>
-        <Title title='404 NOT FOUND'/>
+      <div className='subContainerSettings'>
+        <Title title='Paramètres'/>
       </div>
     </div>
   );
 }
 
-export default NotFound;
+export default Settings;

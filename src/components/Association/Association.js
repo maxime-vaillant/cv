@@ -6,7 +6,7 @@ const Association = ({ name, periode, poste, details, photo }) => {
   const {theme} = useContext(BackgroundContext);
 
   return(
-    <div className='subContainer'>
+    <div className='subContainerAsso'>
       <div className='imageContainer'>
         <img className='image' src={photo} alt=''/>
       </div>

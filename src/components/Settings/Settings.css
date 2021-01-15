@@ -1,8 +1,8 @@
-.mainContainer404{
+.mainContainerSettings{
   min-height: 100vh;
 }
 
-.subContainer404{
+.subContainerSettings{
   display: flex;
   flex-direction: column;
   padding-top: 3vh;

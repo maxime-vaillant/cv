@@ -3,11 +3,11 @@ import './Competence.css';
 import { Progress } from 'semantic-ui-react'
 import BackgroundContext from '../../context/background-context';
 
-const Association = ({ name, pourcentage, photo }) => {
+const Competence = ({ name, pourcentage, photo }) => {
   const {theme} = useContext(BackgroundContext);
 
   return(
-    <div className='subContainer'>
+    <div className='subContainerCompet'>
       <div className='imageContainerCompet'>
         <img className='imageCompet' src={photo} alt=''/>
       </div>
@@ -22,4 +22,4 @@ const Association = ({ name, pourcentage, photo }) => {
   )
 }
 
-export default Association;
+export default Competence;
