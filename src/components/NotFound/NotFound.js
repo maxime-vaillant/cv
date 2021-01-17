@@ -3,7 +3,6 @@ import './NotFound.css';
 import { Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Title from '../Title/Title.js';
-import DayOrNight from '../DayOrNight/DayOrNight.js';
 import BackgroundContext from '../../context/background-context';
 
 

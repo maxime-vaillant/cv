@@ -1,5 +1,4 @@
-import React, { createContext } from 'react';
-import Themes from './Themes.js'
+import React from 'react';
 
 const ThemeContext = React.createContext();
 

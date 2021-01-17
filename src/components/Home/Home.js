@@ -3,7 +3,6 @@ import './Home.css';
 import { Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Title from '../Title/Title.js';
-import DayOrNight from '../DayOrNight/DayOrNight.js';
 import Association from '../Association/Association.js';
 import Competence from '../Competence/Competence.js';
 import Lettre from '../Lettre/Lettre.js';
